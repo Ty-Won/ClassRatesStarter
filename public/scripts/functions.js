@@ -3,7 +3,7 @@
 // API Documentation - https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c9
 function submitComment(commentControl) {
     // TODO - Call API
-    var comments = document.getElementsByName((commentControl)[0].value);
+    var comments = document.getElementsByName((commentControl))[0].value;
     var apiKey = "5f41cfcb8d23403d8e1357cec68328f4";
     var url = "https://westcentralus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment";
 
