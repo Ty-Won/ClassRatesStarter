@@ -13,7 +13,7 @@ function submitComment(commentControl) {
                 {
                     "language": "en-US",
                     "id": "1",
-                    "text": "comments"
+                    "text": comments
                 }
             ]
         };
